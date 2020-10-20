@@ -15,9 +15,9 @@ public class testSN : MonoBehaviour
     void Update()
     {
 		_updateTime += Time.deltaTime;
-		if (_updateTime >= 1.0f)
+		if (_updateTime >= 3.0f)
 		{
-			_updateTime -= 1.0f;
+			_updateTime -= 3.0f;
 			Debug.Log("Update");
 		}
     }
@@ -26,9 +26,9 @@ public class testSN : MonoBehaviour
 	private void LateUpdate()
 	{
 		_lateUpdateTime += Time.deltaTime;
-		if (_lateUpdateTime >= 1.0f)
+		if (_lateUpdateTime >= 0.5f)
 		{
-			_lateUpdateTime -= 1.0f;
+			_lateUpdateTime -= 0.5f;
 			Debug.Log("LateUpdate");
 		}
 	}
