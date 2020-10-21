@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class test : MonoBehaviour
 {
-    private string hoge = "Hello, World!!!";
+    private string _hoge = "Hello, World!!!";
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(hoge);
+        Debug.Log(_hoge);
     }
     
 }
