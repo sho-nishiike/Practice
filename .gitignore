@@ -1,3 +1,7 @@
 Logs/
 Library/
-*png/
+Temp/
+.vs/
+obj/
+*.sln
+*.csproj
