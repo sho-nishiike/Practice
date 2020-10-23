@@ -1,4 +1,7 @@
 Logs/
 Library/
 Temp/
-aaaa
+.vs/
+obj/
+*.sln
+*.csproj
