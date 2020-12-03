@@ -5,3 +5,4 @@ Temp/
 obj/
 *.sln
 *.csproj
+*.test
