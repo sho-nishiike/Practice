@@ -5,3 +5,4 @@ test
 It is for various practice of Git.
 
 test
+test2
